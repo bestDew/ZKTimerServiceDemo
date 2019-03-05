@@ -50,6 +50,7 @@ static NSString *kCellReuseId = @"HomeActivityCell";
     })];
 }
 
+// 模拟数据请求
 - (void)mockRequestData
 {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.35 * NSEC_PER_SEC)), dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
@@ -57,7 +58,7 @@ static NSString *kCellReuseId = @"HomeActivityCell";
         for (NSInteger i = 0; i < 1000; i++) {
             ActivityModel *model = [[ActivityModel alloc] init];
             model.text = [@"Home-" stringByAppendingString:@(i).stringValue];
-            // 因为使用单例且服务已启动，这里计算时长时必须加上当前计时服务的时间偏移量
+            // 因为使用单例且服务提前启动，这里计算时长时必须加上当前计时服务的时间偏移量
             model.timeInterval = (arc4random() % 5000) + TIMER_SERVICE_INSTANCE.timeInterval;
             [mutArray addObject:model];
         }
