@@ -7,25 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDD64EDC222E1A4D007AACAC /* ActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD64EDB222E1A4D007AACAC /* ActivityCell.m */; };
+		FDD64EE5222E1E15007AACAC /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD64EE4222E1E15007AACAC /* UITableView+Extension.m */; };
+		FDD64EE8222E22B4007AACAC /* ActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD64EE7222E22B4007AACAC /* ActivityModel.m */; };
+		FDD64EEC222E5179007AACAC /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD64EEA222E5179007AACAC /* NSDate+Extension.m */; };
 		FDD7B495222D264E005A3966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B494222D264E005A3966 /* AppDelegate.m */; };
-		FDD7B498222D264E005A3966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B497222D264E005A3966 /* ViewController.m */; };
-		FDD7B49B222D264E005A3966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD7B499222D264E005A3966 /* Main.storyboard */; };
 		FDD7B49D222D264F005A3966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD7B49C222D264F005A3966 /* Assets.xcassets */; };
 		FDD7B4A0222D264F005A3966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD7B49E222D264F005A3966 /* LaunchScreen.storyboard */; };
 		FDD7B4A3222D264F005A3966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B4A2222D264F005A3966 /* main.m */; };
+		FDD7B4AB222D26C2005A3966 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B4AA222D26C2005A3966 /* HomeViewController.m */; };
+		FDD7B4AE222D26D6005A3966 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B4AD222D26D6005A3966 /* DiscoverViewController.m */; };
+		FDD7B4B1222D26EB005A3966 /* SecondaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B4B0222D26EB005A3966 /* SecondaryViewController.m */; };
+		FDD7B4C1222D2A2A005A3966 /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B4B6222D2A2A005A3966 /* NSDate+NetworkClock.m */; };
+		FDD7B4C2222D2A2A005A3966 /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = FDD7B4B7222D2A2A005A3966 /* Notes */; };
+		FDD7B4C3222D2A2A005A3966 /* NetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B4BB222D2A2A005A3966 /* NetAssociation.m */; };
+		FDD7B4C4222D2A2A005A3966 /* NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B4BC222D2A2A005A3966 /* NetworkClock.m */; };
+		FDD7B4C5222D2A2A005A3966 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B4BE222D2A2A005A3966 /* GCDAsyncUdpSocket.m */; };
+		FDD7B4C6222D2A2A005A3966 /* ntp.hosts in Resources */ = {isa = PBXBuildFile; fileRef = FDD7B4C0222D2A2A005A3966 /* ntp.hosts */; };
+		FDD7B4C9222D2A44005A3966 /* ZKTimerService.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B4C8222D2A44005A3966 /* ZKTimerService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FDD64EDA222E1A4D007AACAC /* ActivityCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityCell.h; sourceTree = "<group>"; };
+		FDD64EDB222E1A4D007AACAC /* ActivityCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityCell.m; sourceTree = "<group>"; };
+		FDD64EE3222E1E15007AACAC /* UITableView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+Extension.h"; sourceTree = "<group>"; };
+		FDD64EE4222E1E15007AACAC /* UITableView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Extension.m"; sourceTree = "<group>"; };
+		FDD64EE6222E22B4007AACAC /* ActivityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityModel.h; sourceTree = "<group>"; };
+		FDD64EE7222E22B4007AACAC /* ActivityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityModel.m; sourceTree = "<group>"; };
+		FDD64EE9222E23E5007AACAC /* ZKTimerServiceDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZKTimerServiceDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FDD64EEA222E5179007AACAC /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		FDD64EEB222E5179007AACAC /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
 		FDD7B490222D264E005A3966 /* ZKTimerServiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKTimerServiceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD7B493222D264E005A3966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDD7B494222D264E005A3966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDD7B496222D264E005A3966 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FDD7B497222D264E005A3966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FDD7B49A222D264E005A3966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDD7B49C222D264F005A3966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDD7B49F222D264F005A3966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDD7B4A1222D264F005A3966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDD7B4A2222D264F005A3966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDD7B4A9222D26C2005A3966 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FDD7B4AA222D26C2005A3966 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FDD7B4AC222D26D6005A3966 /* DiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		FDD7B4AD222D26D6005A3966 /* DiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		FDD7B4AF222D26EB005A3966 /* SecondaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondaryViewController.h; sourceTree = "<group>"; };
+		FDD7B4B0222D26EB005A3966 /* SecondaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondaryViewController.m; sourceTree = "<group>"; };
+		FDD7B4B4222D2A2A005A3966 /* NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClock.h; sourceTree = "<group>"; };
+		FDD7B4B5222D2A2A005A3966 /* NetAssociation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetAssociation.h; sourceTree = "<group>"; };
+		FDD7B4B6222D2A2A005A3966 /* NSDate+NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NetworkClock.m"; sourceTree = "<group>"; };
+		FDD7B4B7222D2A2A005A3966 /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		FDD7B4B8222D2A2A005A3966 /* ios-ntp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-ntp.h"; sourceTree = "<group>"; };
+		FDD7B4B9222D2A2A005A3966 /* ntp-log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ntp-log.h"; sourceTree = "<group>"; };
+		FDD7B4BA222D2A2A005A3966 /* NSDate+NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NetworkClock.h"; sourceTree = "<group>"; };
+		FDD7B4BB222D2A2A005A3966 /* NetAssociation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetAssociation.m; sourceTree = "<group>"; };
+		FDD7B4BC222D2A2A005A3966 /* NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClock.m; sourceTree = "<group>"; };
+		FDD7B4BE222D2A2A005A3966 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		FDD7B4BF222D2A2A005A3966 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		FDD7B4C0222D2A2A005A3966 /* ntp.hosts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ntp.hosts; sourceTree = "<group>"; };
+		FDD7B4C7222D2A44005A3966 /* ZKTimerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKTimerService.h; sourceTree = "<group>"; };
+		FDD7B4C8222D2A44005A3966 /* ZKTimerService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKTimerService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +96,67 @@
 		FDD7B492222D264E005A3966 /* ZKTimerServiceDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FDD7B4B2222D2A02005A3966 /* ZKTimerService */,
 				FDD7B493222D264E005A3966 /* AppDelegate.h */,
 				FDD7B494222D264E005A3966 /* AppDelegate.m */,
-				FDD7B496222D264E005A3966 /* ViewController.h */,
-				FDD7B497222D264E005A3966 /* ViewController.m */,
-				FDD7B499222D264E005A3966 /* Main.storyboard */,
+				FDD7B4A9222D26C2005A3966 /* HomeViewController.h */,
+				FDD7B4AA222D26C2005A3966 /* HomeViewController.m */,
+				FDD7B4AC222D26D6005A3966 /* DiscoverViewController.h */,
+				FDD7B4AD222D26D6005A3966 /* DiscoverViewController.m */,
+				FDD7B4AF222D26EB005A3966 /* SecondaryViewController.h */,
+				FDD7B4B0222D26EB005A3966 /* SecondaryViewController.m */,
+				FDD64EDA222E1A4D007AACAC /* ActivityCell.h */,
+				FDD64EDB222E1A4D007AACAC /* ActivityCell.m */,
+				FDD64EE6222E22B4007AACAC /* ActivityModel.h */,
+				FDD64EE7222E22B4007AACAC /* ActivityModel.m */,
+				FDD64EEB222E5179007AACAC /* NSDate+Extension.h */,
+				FDD64EEA222E5179007AACAC /* NSDate+Extension.m */,
+				FDD64EE3222E1E15007AACAC /* UITableView+Extension.h */,
+				FDD64EE4222E1E15007AACAC /* UITableView+Extension.m */,
+				FDD64EE9222E23E5007AACAC /* ZKTimerServiceDemo-Prefix.pch */,
 				FDD7B49C222D264F005A3966 /* Assets.xcassets */,
 				FDD7B49E222D264F005A3966 /* LaunchScreen.storyboard */,
 				FDD7B4A1222D264F005A3966 /* Info.plist */,
 				FDD7B4A2222D264F005A3966 /* main.m */,
 			);
 			path = ZKTimerServiceDemo;
+			sourceTree = "<group>";
+		};
+		FDD7B4B2222D2A02005A3966 /* ZKTimerService */ = {
+			isa = PBXGroup;
+			children = (
+				FDD7B4C7222D2A44005A3966 /* ZKTimerService.h */,
+				FDD7B4C8222D2A44005A3966 /* ZKTimerService.m */,
+				FDD7B4B3222D2A2A005A3966 /* ios-ntp-lib */,
+				FDD7B4BD222D2A2A005A3966 /* network-udp */,
+				FDD7B4C0222D2A2A005A3966 /* ntp.hosts */,
+			);
+			path = ZKTimerService;
+			sourceTree = "<group>";
+		};
+		FDD7B4B3222D2A2A005A3966 /* ios-ntp-lib */ = {
+			isa = PBXGroup;
+			children = (
+				FDD7B4B4222D2A2A005A3966 /* NetworkClock.h */,
+				FDD7B4B5222D2A2A005A3966 /* NetAssociation.h */,
+				FDD7B4B6222D2A2A005A3966 /* NSDate+NetworkClock.m */,
+				FDD7B4B7222D2A2A005A3966 /* Notes */,
+				FDD7B4B8222D2A2A005A3966 /* ios-ntp.h */,
+				FDD7B4B9222D2A2A005A3966 /* ntp-log.h */,
+				FDD7B4BA222D2A2A005A3966 /* NSDate+NetworkClock.h */,
+				FDD7B4BB222D2A2A005A3966 /* NetAssociation.m */,
+				FDD7B4BC222D2A2A005A3966 /* NetworkClock.m */,
+			);
+			path = "ios-ntp-lib";
+			sourceTree = "<group>";
+		};
+		FDD7B4BD222D2A2A005A3966 /* network-udp */ = {
+			isa = PBXGroup;
+			children = (
+				FDD7B4BE222D2A2A005A3966 /* GCDAsyncUdpSocket.m */,
+				FDD7B4BF222D2A2A005A3966 /* GCDAsyncUdpSocket.h */,
+			);
+			path = "network-udp";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD7B4C2222D2A2A005A3966 /* Notes in Resources */,
 				FDD7B4A0222D264F005A3966 /* LaunchScreen.storyboard in Resources */,
+				FDD7B4C6222D2A2A005A3966 /* ntp.hosts in Resources */,
 				FDD7B49D222D264F005A3966 /* Assets.xcassets in Resources */,
-				FDD7B49B222D264E005A3966 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +230,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD7B498222D264E005A3966 /* ViewController.m in Sources */,
 				FDD7B4A3222D264F005A3966 /* main.m in Sources */,
+				FDD7B4C5222D2A2A005A3966 /* GCDAsyncUdpSocket.m in Sources */,
+				FDD7B4AE222D26D6005A3966 /* DiscoverViewController.m in Sources */,
+				FDD64EEC222E5179007AACAC /* NSDate+Extension.m in Sources */,
+				FDD7B4C1222D2A2A005A3966 /* NSDate+NetworkClock.m in Sources */,
+				FDD7B4C9222D2A44005A3966 /* ZKTimerService.m in Sources */,
+				FDD7B4B1222D26EB005A3966 /* SecondaryViewController.m in Sources */,
 				FDD7B495222D264E005A3966 /* AppDelegate.m in Sources */,
+				FDD64EDC222E1A4D007AACAC /* ActivityCell.m in Sources */,
+				FDD64EE8222E22B4007AACAC /* ActivityModel.m in Sources */,
+				FDD64EE5222E1E15007AACAC /* UITableView+Extension.m in Sources */,
+				FDD7B4C3222D2A2A005A3966 /* NetAssociation.m in Sources */,
+				FDD7B4AB222D26C2005A3966 /* HomeViewController.m in Sources */,
+				FDD7B4C4222D2A2A005A3966 /* NetworkClock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FDD7B499222D264E005A3966 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDD7B49A222D264E005A3966 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FDD7B49E222D264F005A3966 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -186,17 +278,17 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -220,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -245,17 +337,17 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -273,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,6 +378,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/ZKTimerServiceDemo-Prefix.pch";
 				INFOPLIST_FILE = ZKTimerServiceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +396,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/ZKTimerServiceDemo-Prefix.pch";
 				INFOPLIST_FILE = ZKTimerServiceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

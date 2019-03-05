@@ -1,0 +1,18 @@
+//
+//  ZKTimerServiceDemo-Prefix.pch
+//  ZKTimerServiceDemo
+//
+//  Created by bestdew on 2019/3/5.
+//  Copyright © 2019 bestdew. All rights reserved.
+//
+
+#ifndef ZKTimerServiceDemo_Prefix_pch
+#define ZKTimerServiceDemo_Prefix_pch
+
+#import "ZKTimerService.h"
+#import "ActivityModel.h"
+#import "ActivityCell.h"
+#import "NSDate+Extension.h"
+#import "UITableView+Extension.h"
+
+#endif /* ZKTimerServiceDemo_Prefix_pch */

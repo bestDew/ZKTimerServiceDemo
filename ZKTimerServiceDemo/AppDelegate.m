@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
+#import "DiscoverViewController.h"
+#import "ZKTimerService.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    
+    HomeViewController *homeVC = [HomeViewController new];
+    homeVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Home" image:[UIImage imageNamed:@"tabbar_home"] selectedImage:[UIImage imageNamed:@"tabbar_home_selected"]];
+    homeVC.navigationItem.title = @"Home";
+    UINavigationController *homeNav = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    
+    DiscoverViewController *discoverVC = [DiscoverViewController new];
+    discoverVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Discover" image:[UIImage imageNamed:@"tabbar_discover"] selectedImage:[UIImage imageNamed:@"tabbar_discover_selected"]];
+    discoverVC.navigationItem.title = @"Discover";
+    UINavigationController *discoverNav = [[UINavigationController alloc] initWithRootViewController:discoverVC];
+    
+    UITabBarController *tabBarCtl = [[UITabBarController alloc] init];
+    tabBarCtl.viewControllers = @[homeNav, discoverNav];
+    
+    _window.rootViewController = tabBarCtl;
+    [_window makeKeyAndVisible];
+    
+    // 开启时间同步，直接从 NTP 服务器获取世界标准时间，避免受本地时间不准或被修改的影响
+    [ZKTimerService timeSynchronization];
+    
     return YES;
 }
 
