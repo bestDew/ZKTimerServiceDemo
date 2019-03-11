@@ -51,7 +51,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol ZKTimerListener <NSObject>
 
-@required
 /** 计时器的代理方法，每秒回调一次 */
 - (void)didOnTimer:(ZKTimerService *)service;
 
