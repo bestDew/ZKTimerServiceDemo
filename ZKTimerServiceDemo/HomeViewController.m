@@ -29,7 +29,8 @@ static NSString *kCellReuseId = @"HomeActivityCell";
     [self mockRequestData];
     [TIMER_SERVICE_INSTANCE start];
     
-    // 这里延迟 2s 获取网络标准时间，因为受网速和服务器连通性的影响，可能导致 NTP 服务器连接较慢，所以建议在程序入口处开启：[ZKTimerService timeSynchronization] 时间同步
+    // ⚠️这里延迟 2s 获取网络标准时间，因为受网速和服务器连通性的影响，可能导致 NTP 服务器连接较慢，所以建议在程序入口处开启：[ZKTimerService timeSynchronization] 时间同步
+    // 此处做延迟处理只为演示，实际项目中，从程序启动到需要使用网络时间的这段时间间隔应该足够连接上NTP服务器了
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         NSLog(@"当前网络标准时间：%@", [ZKTimerService networkDate].dateString);
     });
