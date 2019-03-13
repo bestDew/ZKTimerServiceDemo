@@ -29,7 +29,10 @@ static NSString *kCellReuseId = @"HomeActivityCell";
     [self mockRequestData];
     [TIMER_SERVICE_INSTANCE start];
     
-    NSLog(@"当前网络标准时间：%@", [ZKTimerService networkDate].dateString);
+    // 这里延迟 2s 获取网络标准时间，因为受网速和服务器连通性的影响，可能导致 NTP 服务器连接较慢，所以建议在程序入口处开启：[ZKTimerService timeSynchronization] 时间同步
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSLog(@"当前网络标准时间：%@", [ZKTimerService networkDate].dateString);
+    });
 }
 
 - (void)viewWillAppear:(BOOL)animated
