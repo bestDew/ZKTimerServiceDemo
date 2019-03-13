@@ -78,7 +78,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)timeSynchronization;
 
-/** 当前网络标准时间 */
+/** 当前网络标准时间（需要先开启时间同步 [ZKTimerService timeSynchronization]） */
 + (NSDate *)networkDate;
 
 /** 开启服务 */
