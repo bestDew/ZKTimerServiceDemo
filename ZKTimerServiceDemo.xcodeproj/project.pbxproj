@@ -25,6 +25,7 @@
 		FDD7B4C5222D2A2A005A3966 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B4BE222D2A2A005A3966 /* GCDAsyncUdpSocket.m */; };
 		FDD7B4C6222D2A2A005A3966 /* ntp.hosts in Resources */ = {isa = PBXBuildFile; fileRef = FDD7B4C0222D2A2A005A3966 /* ntp.hosts */; };
 		FDD7B4C9222D2A44005A3966 /* ZKTimerService.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD7B4C8222D2A44005A3966 /* ZKTimerService.m */; };
+		FDDE7C9E226B2A79002F99AF /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = FDDE7C9D226B2A79002F99AF /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		FDD7B4C0222D2A2A005A3966 /* ntp.hosts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ntp.hosts; sourceTree = "<group>"; };
 		FDD7B4C7222D2A44005A3966 /* ZKTimerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKTimerService.h; sourceTree = "<group>"; };
 		FDD7B4C8222D2A44005A3966 /* ZKTimerService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKTimerService.m; sourceTree = "<group>"; };
+		FDDE7C9D226B2A79002F99AF /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				FDD7B49E222D264F005A3966 /* LaunchScreen.storyboard */,
 				FDD7B4A1222D264F005A3966 /* Info.plist */,
 				FDD7B4A2222D264F005A3966 /* main.m */,
+				FDDE7C9D226B2A79002F99AF /* Untitled.gif */,
 			);
 			path = ZKTimerServiceDemo;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				FDD7B4A0222D264F005A3966 /* LaunchScreen.storyboard in Resources */,
 				FDD7B4C6222D2A2A005A3966 /* ntp.hosts in Resources */,
 				FDD7B49D222D264F005A3966 /* Assets.xcassets in Resources */,
+				FDDE7C9E226B2A79002F99AF /* Untitled.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
